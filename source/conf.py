@@ -15,6 +15,10 @@
 
 import sys
 import os
+from sphinx.highlighting import lexers
+from pygments.lexers.data import JsonLexer
+from pygments.lexers.shell import BashLexer
+from pygments.lexers.javascript import JavascriptLexer
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -32,6 +36,11 @@ import os
 extensions = [
     'sphinx.ext.todo',
 ]
+
+# Add Pygments lexers
+lexers['JSON'] = JsonLexer()
+lexers['Bash'] = BashLexer()
+lexers['Javascript'] = JavascriptLexer()
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
