@@ -40,4 +40,4 @@ Contents
 Improve the Documentation
 ===============================================================================
 
-See `this page <https://ethereum-homestead.readthedocs.org/en/latest/about.html>`__ to help us improve the documentation.
+See `this page <https://ethereum-classic-guide.readthedocs.org/en/latest/about.html>`__ to help us improve the documentation.
